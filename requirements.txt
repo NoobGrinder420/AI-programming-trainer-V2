@@ -1,0 +1,8 @@
+langchain
+langgraph
+langchain-openai
+langchain_community
+requests 
+beautifulsoup4 
+selenium
+bs4
