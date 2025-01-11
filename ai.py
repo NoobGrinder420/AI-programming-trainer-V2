@@ -1,17 +1,22 @@
 from langchain_openai import ChatOpenAI
-from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage, AnyMessage
 from langchain_community.document_loaders import WikipediaLoader
 from langchain_community.tools.tavily_search import TavilySearchResults
+
 from langgraph.graph import StateGraph, START, END
-from typing import Annotated
-from langchain_core.messages import AnyMessage
 from langgraph.graph.message import add_messages
-from typing_extensions import TypedDict
-from IPython.display import Image, display
+
 from langsmith import traceable
+
+from typing import Annotated, List
+from typing_extensions import TypedDict
+
+from IPython.display import Image, display
+
 from openai import OpenAI
-from typing import List
+
 from scraper import *
+
 import nest_asyncio
 import random
 
