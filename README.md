@@ -1,2 +1,3 @@
 # langchain-programming-trainer
-small programming trainer using chatgpt and langchain
+Small programming trainer using chatgpt and langchain.
+Done during an LLM bootcamp.
